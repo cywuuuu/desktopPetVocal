@@ -1,0 +1,23 @@
+
+QMenu {
+    background-color: rgba(242, 242, 242,0.7);
+    /*background-color: white;*/
+    font-size: 18px;
+    font: 18px "Consolas";
+    padding: 5px 0px 16px 0px;
+    border: 1px solid rgb(196, 199, 200);
+    border-radius: 0px;
+}
+
+QMenu::item {  
+    padding: 7px 20px 7px 13px;
+    /*background-color: transparent;*/
+}
+
+QMenu::item:selected {
+    border-width: 1px;
+    border-color: rgb(202, 212, 212);
+    background: rgb(	255,240,245);
+    color: black;
+}
+
